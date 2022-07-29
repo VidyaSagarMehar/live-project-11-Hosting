@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --skyblue: #12f3ff93;
+    --blue:  #0351fa9b;
+    --grey: #878787;
+}
+img{
+    width: 50px;
+}
+
+
+
+nav{
+    margin-top: 50px;
+    display: grid;
+    /* border: 2px solid red; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* height: 60px; */
+}
+
+div.left{
+    width: 100px;
+    height: 70px;
+}
+div.left img{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+}
+div.middle{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 70px;
+}
+div.middle ul li{
+    display: flex;
+    /* border: 2px solid black; */
+    font-weight: bold;
+    color: #878787;
+    padding: 5px 15px;
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+    flex-direction: row;
+}
+div.middle ul li:hover{
+    color: #000000;
+    cursor: pointer;
+}
+div.right button{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(28, 247, 255, 0.756);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(18, 243, 255, 0.575), rgba(255, 255, 255, 0)), linear-gradient(101deg, #12f3ff93, #0351fa9b);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+div.right button:hover {
+    box-shadow: none;
+    color: #000;
+  }
+  div.main{
+    margin-top: 100px;
+    display: grid;
+    height: 450px;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid black; */
+  }
+  .mainCOntent{
+    margin-left: 50px;
+    /* border: 2px solid black; */
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+  }
+  .mainCOntent h1{
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .mainCOntent p{
+    font-size: 13px;
+    color: var(--grey);
+  }
+  .mainCOntent button{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right,#12f3ff93, #0351fa9b  );
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .mainImage img{
+    width: 500px;
+    margin-left: 100px;
+  }
+  div.secondPart{
+    margin-top: 50px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid black; */
+  }
+  .secondleft img{
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 50px;
+
+  }
+  div.seconRight h1{
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  div.seconRight p{
+    margin-left: 30px;
+    font-size: 13px;
+    width: 500px;
+    font-size: 15px;
+    color: var(--grey);
+  }
+  div.seconRight button{
+    margin-left: 30px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right,#12f3ff93, #0351fa9b  );
+    padding: 15px 70px;
+    border-radius: 10px;
+    color: #fff;
+
+  }
+  div.thirdPart{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  div.thirdLeft h1{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 600px;
+    font-size: 50px;
+  }
+  div.thirdLeft p{
+    margin-left: 50px;
+    font-size: 15px;
+    color: var(--grey);
+  }
+  div.thirdLeft button{
+    margin-left: 30px;
+    margin-left: 50px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right,#12f3ff93, #0351fa9b  );
+    padding: 15px 70px;
+    border-radius: 10px;
+    color: #fff;
+
+  }
+  div.thirdRight img{
+    width: 700px;
+  }
+  div.thorHosting{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+  }
+  div.thorHosting span h1{
+    font-size: 50px;
+    width: 550px;
+  }
+  div.thorHosting span p{
+    font-size: 15px;
+    margin-top: 50px;
+    color: var(--grey);
+    margin-right: 50px;
+  }
+  div.unlimitedHosting{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.unlimitedHosting span{
+    padding-right: 50px;
+  }
+  div.unlimitedHosting span p{
+    font-size: 15px;
+    color: var(--grey);
+  }
+  div.fastestVPS{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.fastestVPS span{
+    padding-right: 50px;
+  }
+  div.fastestVPS span p{
+    font-size: 15px;
+    color: var(--grey);
+  }
+  .footerbg img{
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    width: 98vw;
+    height: 720px;
+  }
+  div.headings h1{
+    display: grid;
+    grid-template-rows: 1fr;
+    /* border: 2px solid black; */
+    color: #fff;
+    text-align: center;
+  }
+  div.bunddle{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.starter{
+    margin-top: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin-left: 50px;
+  }
+  div.starter h1{
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  div.starter .subHeading{
+    margin-left: 20px;
+    font-size: 15px;
+    color: var(--grey);
+  }
+  span p img{
+    margin-left: 20px;
+    width: 20px;
+  }
+ div.starter span p{
+    margin-top: 20px;
+    font-size: 15px;
+ }
+ .price{
+    margin-left: 60px;
+    font-size: 25px;
+ }
+ #month{
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .cancel{
+    color: var(--grey);
+    margin-left: 80px;
+ }
+ .choosePlan{
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(28, 247, 255, 0.756);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(18, 243, 255, 0.575), rgba(255, 255, 255, 0)), linear-gradient(101deg, #12f3ff93, #0351fa9b);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+ }
+ .choosePlan:hover{
+    box-shadow: none;
+    color: #000;
+ }
+ div.starter h1:hover{
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    width: 297px;
+    height: 60px;
+    /* border: 2px solid black; */
+ }
+ div.customerLove{
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+ }
+ div.customerLove h1{
+    font-size: 40px;
+    font-weight: bold;
+ }
+ div.customerLove p{
+    width: 700px;
+    /* border: 2px solid black; */
+    margin-left: 370px;
+    color: var(--grey);
+ }
+ span.top{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ span.bottomm{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ div.sixthPart{
+    /* border: 2px solid black; */
+    height: 450px;
+ }
+.top div{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+    font-size: 15px;
+    color: #0a0039;
+    width: 600px;
+}
+.bottomm div{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #0a0039;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+    width: 600px;
+}
+.profileName{
+    margin-left: 120px;
+    margin-top: -60px;
+}
+.profileJob{
+    margin-left: 120px;
+    margin-top: -5px;
+}
+ span.profile img{
+    margin-left: 20px;
+    /* margin-top: px; */
+    width: 90px;
+ }
+ div.footerpage{
+  /* border: 2px solid black; */
+  color: #fff;
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns:1fr 1fr 1fr;
+ }
+
+ span.bgfooter img{
+  display: flex;
+  position: absolute;
+  z-index: -2;
+  width: 98vw;
+  height: 240px;
+}
+.bottomQuote{
+  margin-left: -300px;
+  width: 600px;
+}
+.btn button{
+    padding: 15px 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 90px;
+    margin-left: 80px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+div.content{
+
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  position: sticky;
+  font-weight: 900;
+  margin-top: 15%;
+  margin-left: 50px;
+  font-weight: normal;
+  
+}
+div.content a{
+  text-decoration: none;
+  color: var(--grey);
+}
+h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+div.heading{
+  /* border: 2px solid black; */
+  position: absolute;
+  display: inline-block;
+  margin-top: -80px;
+}
+.logoFooter{
+  width: 150px;
+}
+.logoarea{
+  margin-top: 25px;
+  color: var(--grey);
+}

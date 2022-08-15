@@ -45,7 +45,7 @@ https://hosting-services.netlify.app/
 
 ## Features
 
-- Only for desktop view
+- Mobile responsive
 - Live previews
 - Fullscreen mode
 
@@ -54,7 +54,7 @@ https://hosting-services.netlify.app/
 
 - Additional browser support to be added.
 
-- Mobile responsivness will added soon.
+- Tablet responsivness will added soon.
 
 ## Feedback
 
